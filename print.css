@@ -1,0 +1,52 @@
+/* Print / "Save as PDF" — clean light CV regardless of on-screen theme */
+@page { margin: 16mm 14mm; }
+
+@media print {
+  html, body { background: #fff !important; color: #111 !important; }
+
+  .topbar, .site-footer { display: none !important; }
+
+  .cv { max-width: none; padding: 0; }
+
+  .cv-header { padding: 0 0 14px; gap: 22px; }
+  .cv-photo { min-height: 0 !important; display: block !important; }
+  .cv-photo img { width: 132px !important; height: 168px !important; border-radius: 2px !important; box-shadow: none !important; }
+  .card h3 { min-height: 0 !important; }
+  .cv-header h1 { font-size: 30px; }
+  .cv-header .tagline { font-size: 12.5px; }
+  .cv-header .role { font-size: 16px; }
+  .open-badge { background: #eef2f7 !important; color: #1f3a5f !important; }
+
+  .section { padding: 14px 0; border-top: 1px solid #ddd; }
+  .section h2 { color: #555 !important; margin-bottom: 12px; break-after: avoid; }
+  .summary { font-size: 13px; text-align: left; }
+  p, li { orphans: 2; widows: 2; }
+
+  .grid-2 { grid-template-columns: 1fr 1fr; gap: 10px; }
+  .card {
+    box-shadow: none !important;
+    border: 1px solid #e2e6ec !important;
+    background: #fff !important;
+    padding: 12px 14px;
+    break-inside: avoid;
+  }
+  .card h3 { font-size: 13.5px; }
+  .card p, .exp li, .li-sub { font-size: 11.5px; }
+
+  .tag { background: #f3f5f8 !important; border-color: #e2e6ec !important; color: #444 !important; }
+
+  /* Stack matters in print so the title never detaches into a flex gap;
+     keep the title glued to its description, let the description flow. */
+  .matter-row { display: block; padding: 9px 0; }
+  .m-head { break-after: avoid; margin-bottom: 4px; }
+  .m-head h3 { font-size: 12.5px; }
+  .m-body p { font-size: 11.5px; }
+
+  .exp-head { break-after: avoid; }
+  .ach-label { break-after: avoid; }
+  .exp-head h3 { font-size: 15px; }
+  .exp-role { color: #1f3a5f !important; }
+  .exp ul.achievements li::before { background: #1f3a5f !important; }
+
+  a { color: #111 !important; }
+}
