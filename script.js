@@ -44,7 +44,7 @@
     html += '<p class="role">' + esc(d.header.role) + "</p>";
     html += '<p class="role-sub">' + esc(d.header.roleSub) + "</p>";
     html += '<p class="tagline">' + esc(d.header.tagline) + "</p>";
-    html += '<p class="open-badge">' + esc(d.ui.openToWork) + "</p>";
+    html += '<p class="open-badge"><span class="badge-dot" aria-hidden="true">&#9679;</span>' + esc(d.ui.openToWork) + "</p>";
     html += '<p class="location">' + esc(d.header.location) + "</p>";
     html += '<ul class="contacts">';
     d.header.contacts.forEach(function (c) {

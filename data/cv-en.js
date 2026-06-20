@@ -34,12 +34,12 @@ window.CV_DATA_EN = {
   },
   summary: [
     "Head of International Legal with 12+ years of experience across technology, media and data driven businesses. Advising on cross-border transactions, corporate structuring, strategic partnerships, joint ventures, technology licensing and regulatory matters across Europe, the UK, the US, MENA, CIS and Asia.",
-    "Extensive experience leading complex multi-jurisdictional projects involving international expansion, M&A, sanctions related restructuring, IP commercialization and global product launches. Combining strategic legal leadership with hands-on execution of high-value transactions and legal process optimization.",
+    "Extensive experience leading complex multi-jurisdictional projects involving international expansion, M&A, corporate restructuring, IP commercialisation and global product launches. Combining strategic legal leadership with direct delivery of complex transactions and legal process optimisation.",
   ],
   competencies: [
     {
       title: "Cross-Border Transactions & Corporate Structuring",
-      text: "Multi-jurisdictional restructurings, international expansion, holding structures, joint ventures and strategic partnerships across Europe, the UK, the US, MENA and Asia.",
+      text: "Multi-jurisdictional restructurings, international expansion, holding and operating structures, cross-border transactions and strategic corporate projects across Europe, the UK, the US, MENA and Asia.",
     },
     {
       title: "M&A & Strategic Transactions",
@@ -69,29 +69,29 @@ window.CV_DATA_EN = {
       text: "Led a multi-year restructuring of a complex international group spanning BVI, Gibraltar, the UK, the Netherlands, Curaçao and operating businesses across the US, Europe and Asia. Simplified the ownership structure by eliminating legacy holding and trust layers, significantly reduced sanctions and operational risks, and maintained uninterrupted business operations throughout the transformation.",
     },
     {
-      title: "JV Restructuring Under Sanctions",
-      tags: ["Joint Venture", "Sanctions"],
-      text: "Transformed a US–Russia joint venture originally structured through Dutch SPVs into a compliant commercial operating model. Conducted a full review of business functions, contractual relationships and transaction flows, redesigning the framework around a UAE-based structure to eliminate direct sanctions exposure while preserving commercial continuity and economic efficiency.",
+      title: "International JV Restructuring",
+      tags: ["Joint Venture", "Restructuring"],
+      text: "Transformed a US–Russia joint venture originally structured through Dutch SPVs into a compliant commercial operating model. Conducted a full review of business functions, contractual relationships and transaction flows, redesigning the framework around a UAE-based structure to eliminate regulatory risk while preserving commercial continuity and economic efficiency.",
     },
     {
       title: "Global IP Licensing Framework",
       tags: ["IP", "Licensing"],
-      text: "Designed a global licensing and monetisation framework for data products and API services across MENA, the US, Europe, the UK and Asia. Structured international distribution, IP ownership and royalty flows through a multi-jurisdictional licensing model while ensuring compliance with GDPR, DORA and cross-border data transfer requirements. Successfully defended the qualification of licensing revenues against a US counterparty's attempt to treat payments as US-sourced income.",
+      text: "Designed a global licensing and monetisation framework for data products and API services across MENA, the US, Europe, the UK and Asia. Structured international distribution, IP ownership and royalty flows through a multi-jurisdictional licensing model while ensuring compliance with GDPR, DORA and cross-border data transfer requirements. Successfully defended the characterisation of payments as ordinary business income from information services against a US counterparty's attempt to requalify them as US-sourced income subject to withholding.",
     },
     {
-      title: "Data & Analytics Distribution",
+      title: "Data & Analytics Distribution Agreements",
       tags: ["Commercial", "Data"],
       text: "Negotiated and structured cross-border distribution agreements for data and analytics products with leading international media and financial institutions. Advised on data usage rights, SLA frameworks, IP protection and liability allocation in transactions generating annual revenues of up to $1.5M+ under counterparties' highly sophisticated contracting and compliance standards.",
     },
     {
       title: "Cross-Border SaaS Asset Sale",
       tags: ["M&A", "SaaS"],
-      text: "Led the legal workstream of a cross-border SaaS asset sale valued at approximately $1M, involving the transfer of software, infrastructure, customer relationships, intellectual property and goodwill. Structured the transaction to facilitate acquisition financing, ensure business continuity, limit seller exposure and achieve a commercially balanced allocation of post-closing risks.",
+      text: "Acted as sole legal counsel for the seller in a cross-border SaaS asset sale valued at approximately $1M, involving the transfer of software, infrastructure, customer relationships, intellectual property and goodwill. Structured the transaction to facilitate acquisition financing, ensure business continuity, limit seller exposure and achieve a commercially balanced allocation of post-closing risks.",
     },
     {
       title: "International Technology Joint Venture",
       tags: ["Joint Venture", "Technology"],
-      text: "Structured and led the development of an international technology joint venture from concept to execution. Designed a two-tier holding and operating structure across Oman and Uzbekistan, implemented governance and minority protection mechanisms, and developed an integrated framework covering technology licensing, data rights, API access and commercial distribution while preserving ownership of core intellectual property.",
+      text: "Structured an international technology joint venture from concept to execution. Designed a two-tier holding and operating structure across Oman and Uzbekistan, implemented governance and minority protection mechanisms, and developed an integrated framework covering technology licensing, data rights, API access and commercial distribution while preserving ownership of core intellectual property.",
     },
   ],
   experience: [

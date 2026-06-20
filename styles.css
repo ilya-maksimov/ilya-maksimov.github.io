@@ -147,26 +147,18 @@ html[data-theme="dark"] .icon-moon { display: none; }
   max-width: 600px;
 }
 .open-badge {
-  display: flex;
-  align-items: flex-start;
-  gap: 8px;
   color: #1f8a5b;
   font-size: 14px;
   font-weight: 600;
   padding: 0;
   margin: 2px 0 12px;
 }
-.open-badge::before {
-  content: "";
-  flex: 0 0 auto;
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  background: #1f8a5b;
+.badge-dot {
+  font-size: 9px;
+  margin-right: 5px;
 }
-html[data-theme="dark"] .open-badge,
-html[data-theme="dark"] .open-badge::before { color: #4ade80; background-color: #4ade80; }
-html[data-theme="dark"] .open-badge { background-color: transparent; }
+html[data-theme="dark"] .badge-dot { color: #4ade80; }
+html[data-theme="dark"] .open-badge { color: #4ade80; }
 .cv-header .location { color: var(--faint); font-size: 14px; margin: 0 0 18px; }
 
 .contacts { list-style: none; padding: 0; margin: 0; display: flex; flex-wrap: wrap; gap: 10px 22px; }
@@ -214,7 +206,7 @@ html[data-theme="dark"] .open-badge { background-color: transparent; }
   flex: 0 0 auto;
 }
 .section-note { color: var(--faint); font-size: 13px; margin: -8px 0 18px; }
-.summary { font-size: 16px; line-height: 1.7; margin: 0 0 14px; text-align: justify; -webkit-hyphens: auto; hyphens: auto; }
+.summary { font-size: 16px; line-height: 1.7; margin: 0 0 14px; text-align: justify; -webkit-hyphens: none; hyphens: none; }
 .summary:last-child { margin-bottom: 0; }
 
 .grid { display: grid; gap: 16px; }
@@ -230,12 +222,13 @@ html[data-theme="dark"] .open-badge { background-color: transparent; }
   padding: 22px 24px;
   box-shadow: none;
 }
-.card h3 { margin: 0 0 10px; font-size: 16.5px; min-height: 60px; }
+.card h3 { margin: 0 0 10px; font-size: 16.5px; }
 .card p { margin: 0; color: var(--muted); font-size: 14.5px; }
 /* Selected matters — full-width row list */
 .matters-list { display: flex; flex-direction: column; }
 .matter-row {
   display: flex;
+  align-items: baseline;
   gap: 32px;
   padding: 20px 0;
   border-top: 1px solid var(--border);
