@@ -96,6 +96,21 @@ window.CV_DATA_EN = {
   ],
   experience: [
     {
+      company: "Confidential (international JV restructuring)",
+      companyNote:
+        "Legal lead on the restructuring of a CIS business (annual revenue over $5M) from a joint venture into a distribution model with a global data and analytics company.",
+      role: "Legal Lead, International Project (Legal Business Partner)",
+      period: "2026 — present",
+      bullets: [
+        "Legal strategy and deal structure: risk assessment, options and recommendations to management.",
+        "Lead the project's legal track: work planning and timelines, task allocation to lawyers, progress control and status reporting to management.",
+        "Draft and negotiate transaction documents in English with the partner's international team.",
+        "Align finance, tax, product, information security and data protection requirements into a single negotiating position.",
+        "Design the intra-group contractual model: allocation of functions, obligations and settlements among companies in four jurisdictions.",
+        "Legal preparation of the exit from the previous corporate structure.",
+      ],
+    },
+    {
       company: "Interfax Group",
       companyNote:
         "Leading international information agency and developer of B2B analytical systems, operating globally with major corporate and financial-sector clients.",
@@ -112,7 +127,7 @@ window.CV_DATA_EN = {
             "Restructured IP ownership and distribution models for international markets and managed external advisers on corporate, tax and regulatory matters across jurisdictions.",
           ],
           achievements: [
-            "Delivered a complex cross-border transformation of an international JV (JV → distribution model) while maintaining operational continuity and mitigating sanctions risk.",
+            "Supported the cross-border transformation of an international JV (JV → distribution model) while maintaining operational continuity and mitigating sanctions risk.",
             "Established a centralized IP licensing model enabling controlled cross-border distribution of digital products.",
             "Developed standardized contracts and legal playbooks (legal-design principles) and implemented a task-tracking system within the legal team.",
           ],
