@@ -104,7 +104,7 @@ window.CV_DATA_EN = {
       bullets: [
         "Legal strategy and deal structure: risk assessment, options and recommendations to management.",
         "Lead the project's legal track: work planning and timelines, task allocation to lawyers, progress control and status reporting to management.",
-        "Draft and negotiate transaction documents in English with the Dun & Bradstreet international team.",
+        "Draft and negotiate transaction documents in English with the international team.",
         "Align finance, tax, product, information security and data protection requirements into a single negotiating position.",
         "Design the intra-group contractual model: allocation of functions, obligations and settlements among companies in four jurisdictions.",
         "Legal preparation of the exit from the previous corporate structure.",
